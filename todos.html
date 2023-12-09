@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>TO-DOs</h2>
+
+<form id = "form">
+  <label for = "task">Task Name:</label><br>
+  <input type="text" id="task" name="task"><br>
+  <label for ="des">Description:</label><br>
+  <input type="text" id="des" name="des"><br>
+  
+  <br>
+  <input type="submit" value="Add">
+</form><br><br>
+
+<div id = "notDone">
+    <h2>Task List</h2>
+</div><br><br><br>
+
+<div id = "done">
+    <h2>Task Done</h2>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js" integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="todos.js"></script>
+</body>
+</html>
